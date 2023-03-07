@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+
+.ff{
+    font-family: 'Roboto', sans-serif;
+}
+
+.reg{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.med{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.semi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.bold{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.f{
+    font-family: 'Abel', sans-serif;
+}
+
+.freg{
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+}
+
+
+/* ============================
+        common css done
+=============================== */
+.logo h1{
+    font-size: 45px;
+    position: absolute;
+    top: 120px;
+    font-style: italic;
+}
+.menu{
+    padding-top: 100px;
+    text-align: right;
+}
+
+.menu h3{
+    font-size: 32px;
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+
+.menu h4{
+    font-size: 33px;
+    margin-top: 25px;
+    color: #9D9598;
+    padding-right: 15px;
+}
+
+/* ============================
+        menu css done
+=============================== */
+.banner img{
+    width: 100%;
+}
+/* ============================
+        banner css done
+=============================== */
+.about .head h4{
+    font-size: 36px;
+    padding-left: 120px;
+    padding-right: 340px;
+    display: inline-block;
+    background: #000;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.ab-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.about .text{
+    width: 64%;
+}
+.about .img{
+    width: 32%;
+}
+.about .img img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.about .text h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding-right: 60px;
+}
+.about .text p{
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* ============================
+        about css done
+=============================== */
+.info{
+    background: #DCDDDE;
+   
+    padding: 50px;
+}
+.info p{
+    text-align: right;
+    margin-bottom: 0;
+}
+.info .contact{
+    text-align: right;
+}
+.info .contact a{
+    color: #000;
+}
+.info .contact .ia{
+    margin-right: 25px;
+}
+/* ============================
+        info css done
+=============================== */
+.item{
+    margin-bottom: 100px;
+}
+
+.item .i-main{
+    display: flex;
+    justify-content: space-between;
+}
+.item .text{
+    width: 35%;
+}
+.item .text h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.item .text p{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-weight:600;
+    font-size: 20px;
+    padding-right: 80px;
+}
+.item .text h5{
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-weight:600;
+    font-size: 25px;
+    margin-top: 25px;
+}
+.item .m-img{
+    width: 55%;
+    display: flex;
+}
+.item .m-img .fm{
+    width: 50%;
+}
+.item .m-img .fm img{
+    width: 100%;
+    margin-bottom:10px;
+}
+.item .m-img .sm{
+    width: 50%;
+}
+.item .m-img .sm img{
+    margin-bottom: 25px;
+}
+.item .m-img .sm .sm2{
+    padding-left: 15px;
+}
+/* ============================
+        item css done
+=============================== */
+.s-item .content{
+    display: flex;
+    justify-content: space-between;
+}
+.s-item .content .fc{
+    width: 40%;
+}
+.s-item .content .fc h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.s-item .content .fc h6{
+    font-size: 40px;
+    font-weight: 500;
+}
+.s-item .content .sc{
+    width: 60%;
+    padding-bottom: 50px;
+}
+.s-item .content .sc p{
+    margin-bottom: 0;
+    padding-bottom: 13px;
+    font-weight:600;
+    font-size: 22px;
+    padding-right: 80px;
+}
+/* ============================
+        s-item css done
+=============================== */
+
+.footer h2{
+    font-weight: 500;
+    font-size: 37px;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.footer h3{
+    font-weight: 300;
+    font-size: 37px;
+    margin-bottom: 80px;
+}
+.footer p{
+    font-weight: 400;
+}
+.footer p span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer .majarment{
+    width: 45%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.footer .majarment p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer  p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer  h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+/* ============================
+        footer css done
+=============================== */
+.table{
+    margin-bottom: 200px;
+}
+.table .m-table{
+    display: flex;
+    justify-content: space-between;
+}
+.table .m-table .tf{
+    width: 45%;
+}
+.table .m-table .ts{
+    width: 45%;
+}
+.table .m-table .item1{
+    display: flex;
+}
+
+.table .m-table .item1 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item1{
+    border-top: 2px solid #c5c6c7;
+    border-bottom: 2px solid #c5c6c7;
+    padding: 10px;
+    margin-top: 20px;
+}
+.table .m-table .item1 .ic1{
+    width: 40%;
+}
+.table .m-table .item1 .ic2{
+    width: 50%;
+}
+.pr10{
+    padding-right: 40px;
+}
+.ts1{
+    padding-right: 2px !important;
+}
+/* item 2=================== */
+.table .m-table .item2{
+    display: flex;
+}
+
+.table .m-table .item2 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item2{
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+.table .m-table .item2 .ic1{
+    width: 40%;
+}
+.table .m-table .item2 .ic2{
+    width: 50%;
+}
+.pl10{
+    padding-left: 15px;
+}
+/* item 3================ */
+
+.table .m-table .item3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table .m-table .item3 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item3{
+    border-top: 2px solid #c5c6c7;
+    border-bottom: 2px solid #c5c6c7;
+    padding: 10px;
+    margin-top: 20px;
+}
+.table .m-table .item3 .ic1{
+    width: 40%;
+}
+.table .m-table .item3 .ic2{
+    width: 50%;
+}
+
+.i3pb{
+    padding-bottom: 130px;
+    font-weight: 400 !important;
+}
+
+.regu{
+    font-weight: 400 !important;
+}
+
+.i3pr{
+    padding-right: 35px;
+}
+.i3mt{
+    margin-top: 13px;
+}
+
+.mtu{
+    margin-top: 61px;
+}
+/* item 4 ====================== */
+.table .m-table .item4{
+    display: flex;
+}
+
+.table .m-table .item4 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item4{
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+.table .m-table .item4 .ic1{
+    width: 40%;
+}
+.table .m-table .item4 .ic2{
+    width: 50%;
+}
+
+/*  item5========================== */
+.table .m-table .item5{
+    display: flex; 
+}
+
+.table .m-table .item5 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item5{
+    border-top: 2px solid #c5c6c7;
+    border-bottom: 2px solid #c5c6c7;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+.table .m-table .item5 .ic1{
+    width: 40%;
+}
+.table .m-table .item5 .ic2{
+    width: 50%;
+}
+/* item 6  ============================== */
+.table .m-table .item6{
+    display: flex; 
+}
+
+.table .m-table .item6 h3{
+    font-size: 18px;
+    font-weight: 300;
+    display: inline-block;
+}
+.table .m-table .item6{
+    border-top: 2px solid #c5c6c7;
+    border-bottom: 2px solid #c5c6c7;
+    padding: 10px;
+    margin-top: 90px;
+   
+}
+.table .m-table .item6 .ic1{
+    width: 40%;
+}
+.table .m-table .item6 .ic2{
+    width: 50%;
+}
+/* ============================
+        table css done
+=============================== */
+.cert h5{
+    font-size: 16px;
+}
+.cpb{
+    margin-bottom: 25px;
+}
+/* ============================
+        certification css done
+=============================== */
