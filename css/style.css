@@ -85,8 +85,8 @@ ul{
 =============================== */
 .about .head h4{
     font-size: 36px;
-    padding-left: 120px;
-    padding-right: 340px;
+    padding-left: 90px;
+    padding-right: 250px;
     display: inline-block;
     background: #000;
     color: white;
@@ -99,10 +99,10 @@ ul{
     margin-bottom: 30px;
 }
 .about .text{
-    width: 64%;
+    padding-right: 45px;
 }
 .about .img{
-    width: 32%;
+    padding-top: 70px;
 }
 .about .img img{
     width: 100%;
@@ -153,9 +153,7 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-.item .text{
-    width: 35%;
-}
+
 .item .text h3{
     font-size: 40px;
     font-weight: 600;
@@ -166,7 +164,7 @@ ul{
     padding-bottom: 8px;
     font-weight:600;
     font-size: 20px;
-    padding-right: 80px;
+    padding-right: 140px;
 }
 .item .text h5{
     margin-bottom: 0;
@@ -176,7 +174,7 @@ ul{
     margin-top: 25px;
 }
 .item .m-img{
-    width: 55%;
+    
     display: flex;
 }
 .item .m-img .fm{
@@ -198,26 +196,26 @@ ul{
 /* ============================
         item css done
 =============================== */
-.s-item .content{
+/* .s-item .content{
     display: flex;
     justify-content: space-between;
-}
-.s-item .content .fc{
+} */
+/* .s-item .content .fc{
     width: 40%;
-}
-.s-item .content .fc h3{
+} */
+.s-item  .fc h3{
     font-size: 40px;
     font-weight: 600;
 }
-.s-item .content .fc h6{
+.s-item  .fc h6{
     font-size: 40px;
     font-weight: 500;
 }
-.s-item .content .sc{
-    width: 60%;
+.s-item .sc{
+    
     padding-bottom: 50px;
 }
-.s-item .content .sc p{
+.s-item .sc p{
     margin-bottom: 0;
     padding-bottom: 13px;
     font-weight:600;
@@ -227,7 +225,9 @@ ul{
 /* ============================
         s-item css done
 =============================== */
-
+.fh3{
+    margin-bottom: 80px;
+}
 .footer h2{
     font-weight: 500;
     font-size: 37px;
@@ -237,7 +237,7 @@ ul{
 .footer h3{
     font-weight: 300;
     font-size: 37px;
-    margin-bottom: 80px;
+    
 }
 .footer p{
     font-weight: 400;
@@ -247,7 +247,7 @@ ul{
     font-weight: 600;
 }
 .footer .majarment{
-    width: 45%;
+    width: 70%;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     padding: 30px 0;
@@ -274,62 +274,65 @@ ul{
 .table{
     margin-bottom: 200px;
 }
-.table .m-table{
+/* .table .m-table{
     display: flex;
     justify-content: space-between;
-}
-.table .m-table .tf{
+} */
+/* .table .m-table .tf{
     width: 45%;
 }
 .table .m-table .ts{
     width: 45%;
-}
-.table .m-table .item1{
+} */
+.table .item1{
     display: flex;
 }
 
-.table .m-table .item1 h3{
+.table .item1 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item1{
+.table .item1{
     border-top: 2px solid #c5c6c7;
     border-bottom: 2px solid #c5c6c7;
     padding: 10px;
     margin-top: 20px;
 }
-.table .m-table .item1 .ic1{
+.table .item1 .ic1{
     width: 40%;
 }
-.table .m-table .item1 .ic2{
+.table .item1 .ic2{
     width: 50%;
 }
 .pr10{
-    padding-right: 40px;
+    padding-right: 70px;
 }
 .ts1{
     padding-right: 2px !important;
 }
+.ts1pr{
+    padding-right: 20px;
+}
 /* item 2=================== */
-.table .m-table .item2{
+.table .item2{
     display: flex;
 }
 
-.table .m-table .item2 h3{
+.table .item2 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item2{
+.table .item2{
     
     padding: 10px;
     margin-top: 20px;
 }
-.table .m-table .item2 .ic1{
+.table .item2 .ic1{
     width: 40%;
 }
-.table .m-table .item2 .ic2{
+.table .item2 .ic2{
     width: 50%;
 }
 .pl10{
@@ -337,26 +340,26 @@ ul{
 }
 /* item 3================ */
 
-.table .m-table .item3{
+.table .item3{
     display: flex;
     flex-wrap: wrap;
 }
 
-.table .m-table .item3 h3{
+.table .item3 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item3{
+.table .item3{
     border-top: 2px solid #c5c6c7;
     border-bottom: 2px solid #c5c6c7;
     padding: 10px;
     margin-top: 20px;
 }
-.table .m-table .item3 .ic1{
+.table .item3 .ic1{
     width: 40%;
 }
-.table .m-table .item3 .ic2{
+.table .item3 .ic2{
     width: 50%;
 }
 
@@ -377,74 +380,74 @@ ul{
 }
 
 .mtu{
-    margin-top: 61px;
+    margin-top: 80px;
 }
 /* item 4 ====================== */
-.table .m-table .item4{
+.table .item4{
     display: flex;
 }
 
-.table .m-table .item4 h3{
+.table .item4 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item4{
+.table .item4{
     
     padding: 10px;
     margin-top: 20px;
 }
-.table .m-table .item4 .ic1{
+.table .item4 .ic1{
     width: 40%;
 }
-.table .m-table .item4 .ic2{
+.table .item4 .ic2{
     width: 50%;
 }
 
 /*  item5========================== */
-.table .m-table .item5{
+.table .item5{
     display: flex; 
 }
 
-.table .m-table .item5 h3{
+.table .item5 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item5{
+.table .item5{
     border-top: 2px solid #c5c6c7;
     border-bottom: 2px solid #c5c6c7;
     padding: 10px;
     margin-top: 20px;
     
 }
-.table .m-table .item5 .ic1{
+.table .item5 .ic1{
     width: 40%;
 }
-.table .m-table .item5 .ic2{
+.table .item5 .ic2{
     width: 50%;
 }
 /* item 6  ============================== */
-.table .m-table .item6{
+.table .item6{
     display: flex; 
 }
 
-.table .m-table .item6 h3{
+.table .item6 h3{
     font-size: 18px;
     font-weight: 300;
     display: inline-block;
 }
-.table .m-table .item6{
+.table .item6{
     border-top: 2px solid #c5c6c7;
     border-bottom: 2px solid #c5c6c7;
     padding: 10px;
     margin-top: 90px;
    
 }
-.table .m-table .item6 .ic1{
+.table .item6 .ic1{
     width: 40%;
 }
-.table .m-table .item6 .ic2{
+.table .item6 .ic2{
     width: 50%;
 }
 /* ============================

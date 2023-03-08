@@ -1,0 +1,316 @@
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+
+@media (max-width: 350px){
+    /* heading ========================= */
+    .logo h1{
+        top: 40px !important;
+    }
+
+
+    .menu h4{
+        padding: 0 65px;
+        font-size: 25px;
+    }
+
+
+    /* heading ========================= */
+
+    /* about ============================= */
+
+    .about .head h4 {
+        font-size: 30px;
+        padding: 3px;
+    }
+
+    .about .text h2{
+        font-size: 30px !important;
+        padding-right: 0px !important;
+    }
+    .about .text p{
+        font-size: 22px;
+        margin-bottom: 10px !important;
+    }
+
+
+    /* about ============================= */
+
+
+    /* info =================================== */
+
+    .info p{
+        margin-bottom: 10px !important;
+    }
+
+    /* info =================================== */
+
+    /* item =================================== */
+    .item .text p{
+        padding-right: 0 !important;
+    }
+    /* item =================================== */
+
+
+    /* s-item =================================== */
+
+    .s-item .fc h6{
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .s-item .sc p{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+
+
+     /* s-item =================================== */
+
+
+     /* table=================================== */
+     .pr10{
+        padding-right: 0;
+     }
+
+     .table .item2 h3{
+        font-size: 15px;
+     }
+
+     /* table =================================== */
+
+
+
+}
+
+
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+
+
+
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+@media(min-width: 351px) and  (max-width: 575px){
+
+    /* head ============================ */
+    .logo h1{
+        top: 50px;
+    }
+    .menu h4{
+        font-size: 23px;
+    }
+    /* head ============================ */
+
+
+    /* about ============================= */
+
+    .about .head h4 {
+        font-size: 30px;
+        padding: 5px;
+    }
+
+    .about .text h2{
+        font-size: 30px !important;
+        padding-right: 0px !important;
+    }
+    .about .text p{
+        font-size: 22px;
+        margin-bottom: 10px !important;
+    }
+
+     /* about ============================= */
+
+         /* info =================================== */
+
+    .info p{
+        margin-bottom: 10px !important;
+    }
+
+    /* info =================================== */
+
+        /* item =================================== */
+        .item .text p{
+            padding-right: 0 !important;
+        }
+        /* item =================================== */
+
+            /* s-item =================================== */
+
+    .s-item .fc h6{
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .s-item .sc p{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+
+
+     /* s-item =================================== */
+
+     .footer .majarment p{
+        font-size: 16px;
+     }
+
+
+}
+
+/* ===================================
+    <!-- extra small device -->
+==================================== */
+
+
+/* ===================================
+    <!--  small device -->
+==================================== */
+@media (min-width: 576px ) and (max-width: 767px){
+    /* head ============================= */
+    .logo h1{
+        top: 40px;
+    }
+    /* head ============================= */
+
+    /* about ================================ */
+    .about .head h4{
+        padding: 5px !important;
+    }
+    .about .text h2{
+        font-size: 30px !important;
+        padding-right: 0px !important;
+    }
+    .about .text p{
+        font-size: 22px;
+        margin-bottom: 10px !important;
+    }
+    /* about ================================ */
+
+    /* item =================================== */
+    .item .text h3{
+        margin-top: 30px;
+    }
+    /* item =================================== */
+
+        /* item =================================== */
+        .item .text p{
+            padding-right: 0 !important;
+        }
+        /* item =================================== */
+
+     /* s-item =================================== */
+
+     .s-item .fc h6{
+        padding-right: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+    .s-item .sc p{
+        font-size: 20px;
+        padding-right: 0;
+    }
+
+
+
+}
+/* ===================================
+    <!--  small device -->
+==================================== */
+
+
+
+/* ===================================
+    <!--  large device -->
+==================================== */
+
+@media (min-width: 768px ) and (max-width: 991px){
+
+    .logo h1{
+        top: 90px;
+    }
+
+    .about .head h4 {
+	padding-left: 50px;
+	padding-right: 150px;
+}
+
+.about .text p{
+    margin-bottom: 20px;
+}
+
+.info .contact .ia{
+    margin-right: 6px;
+}
+
+.item .text h3{
+    margin: 15px 0;
+}
+
+.item .text p{
+    padding-right: 0;
+}
+
+.s-item .sc{
+    padding-left: 38px;
+}
+
+.s-item .fc h6 {
+	font-size: 35px;
+	
+}
+
+.pr10{
+    padding-right: 0;
+}
+
+.table .item1 h3{
+    font-size: 16px;
+}
+
+.table .item2 h3{
+    font-size: 17px;
+}
+.mdpr{
+    padding-right: 10px !important;
+}
+
+}
+
+
+/* ===================================
+    <!--  large device -->
+==================================== */
+
+
+
+/* ===================================
+    <!--  extra large device -->
+==================================== */
+
+@media (min-width: 992px ) and (max-width: 1199px){
+    .about .head h4 {
+        
+        padding-left: 50px;
+        padding-right: 152px;
+        
+    }
+    .about .text h2{
+        font-size: 32px;
+    }
+    .about .text p{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .item .text p{
+        padding-right: 0;
+    }
+}
+
+/* ===================================
+    <!--   extra large device -->
+==================================== */
